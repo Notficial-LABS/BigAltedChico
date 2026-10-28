@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390">
+<defs>
+<linearGradient id="shell" x2="0" y2="1"><stop stop-color="#27292b"/><stop offset="1" stop-color="#0c0e10"/></linearGradient>
+<linearGradient id="body" x2=".2" y2="1"><stop stop-color="#8b3d49"/><stop offset=".55" stop-color="#602832"/><stop offset="1" stop-color="#30151d"/></linearGradient>
+<linearGradient id="gold" x2=".3" y2="1"><stop stop-color="#e9bc58"/><stop offset="1" stop-color="#ad7a2b"/></linearGradient>
+<linearGradient id="rose" x2=".4" y2="1"><stop stop-color="#bb7889"/><stop offset="1" stop-color="#75444e"/></linearGradient>
+<clipPath id="bodyClip"><rect x="5" y="48" width="1190" height="337" rx="24"/></clipPath>
+</defs>
+<rect width="1200" height="390" rx="15" fill="url(#shell)"/>
+<rect x="5" y="48" width="1190" height="337" rx="24" fill="url(#body)"/>
+<g clip-path="url(#bodyClip)" fill="none" stroke="#c16b69" stroke-width="2" opacity=".42">
+<path d="M0 103C104 30 130 104 238 79S352 30 445 70 562 118 665 68 786 112 873 79 1039 28 1200 71"/>
+<path d="M0 163C90 81 110 219 237 213S363 104 467 181 567 284 688 212 862 271 985 242 1114 124 1200 167"/>
+<path d="M0 311C82 261 162 382 306 319S456 259 576 321 709 324 823 304 1008 375 1200 300"/>
+<path d="M0 340C96 293 168 402 320 343S458 282 571 342 722 349 832 329 1020 389 1200 324"/>
+</g>
+<path d="M5 185C99 130 112 340 238 320S350 218 457 271 577 347 708 304 859 260 989 298 1135 327 1195 283" fill="none" stroke="#c28b43" stroke-width="3" opacity=".6"/>
+<!-- Connected mustard lobes: the large Pitch and Formant zones. -->
+<path d="M123 196C123 118 160 61 242 61C329 61 344 119 384 137C416 154 439 137 459 116C494 78 540 60 595 61C675 62 718 117 718 196C718 266 681 315 601 315C522 315 487 266 461 239C440 217 405 215 378 239C345 270 324 315 246 315C165 315 123 267 123 196Z" fill="url(#gold)"/>
+<path d="M803 107C861 43 914 82 969 88C1037 96 1103 51 1157 104C1183 129 1190 163 1190 199C1190 268 1145 297 1098 295C1040 293 1019 275 972 274C921 273 898 300 853 286C808 273 780 240 781 197C780 157 786 127 803 107Z" fill="url(#rose)"/>
+<path d="M802 106C866 42 917 83 968 89C1037 97 1104 52 1156 105" fill="none" stroke="#d49ba7" stroke-width="4" opacity=".45"/>
+<rect x="375" y="307" width="464" height="42" rx="21" fill="#20121e" stroke="#6d3949" stroke-width="1.2"/>
+<path d="M492 371q10 6 20 0t20 0M666 371q10-6 20 0t20 0" stroke="#995568" fill="none" opacity=".65"/>
+<rect x=".7" y=".7" width="1198.6" height="388.6" rx="15" stroke="#424044" stroke-width="1.4" fill="none"/>
+</svg>

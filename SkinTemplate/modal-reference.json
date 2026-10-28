@@ -1,0 +1,90 @@
+{
+  "referenceOnly": true,
+  "canvas": [
+    1200,
+    390
+  ],
+  "controls": {
+    "panel": [
+      270,
+      25,
+      660,
+      340
+    ],
+    "pluginLogo": [
+      400,
+      33,
+      400,
+      30
+    ],
+    "companyLink": [
+      480,
+      81,
+      240,
+      20
+    ],
+    "size75": [
+      300,
+      143,
+      90,
+      31
+    ],
+    "size100": [
+      402,
+      143,
+      90,
+      31
+    ],
+    "size125": [
+      504,
+      143,
+      90,
+      31
+    ],
+    "skinChoice": [
+      350,
+      182,
+      244,
+      26
+    ],
+    "developerLink": [
+      300,
+      251,
+      305,
+      20
+    ],
+    "licenseNotices": [
+      655,
+      280,
+      240,
+      22
+    ],
+    "closeSettings": [
+      893,
+      31,
+      28,
+      28
+    ],
+    "licenseText": [
+      300,
+      143,
+      600,
+      146
+    ],
+    "backToSettings": [
+      300,
+      298,
+      70,
+      24
+    ],
+    "watermark": [
+      480,
+      115,
+      240,
+      233
+    ]
+  },
+  "largeLogoOpacity": 0.1,
+  "patternOpacity": 0.02,
+  "logoClearance": 10
+}

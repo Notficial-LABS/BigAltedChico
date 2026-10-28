@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "my-first-skin",
+  "name": "My First Skin",
+  "extends": "ondas",
+  "background": "background.svg",
+  "pluginLogo": "plugin-logo.svg",
+  "brandLogo": "brand-logo.svg",
+  "modalLogo": "modal-logo.svg",
+  "modalBackground": "modal-background.svg",
+  "colours": {
+    "accent": "#e9b956",
+    "ring": "#78607f",
+    "pointer": "#f1e4be",
+    "label": "#29131a",
+    "text": "#eedcc4",
+    "muted": "#bb8393",
+    "button": "#352030"
+  },
+  "controls": {
+    "previous": [
+      44,
+      6,
+      34,
+      34
+    ],
+    "next": [
+      83,
+      6,
+      34,
+      34
+    ],
+    "preset": [
+      126,
+      6,
+      340,
+      34
+    ],
+    "save": [
+      474,
+      6,
+      34,
+      34
+    ],
+    "reset": [
+      514,
+      6,
+      34,
+      34
+    ],
+    "processing": [
+      932,
+      6,
+      88,
+      34
+    ],
+    "settings": [
+      1029,
+      6,
+      34,
+      34
+    ],
+    "bypass": [
+      1070,
+      6,
+      88,
+      34
+    ],
+    "pitch": [
+      168,
+      111,
+      152,
+      152
+    ],
+    "formant": [
+      522,
+      111,
+      152,
+      152
+    ],
+    "drive": [
+      845,
+      135,
+      112,
+      112
+    ],
+    "mix": [
+      1025,
+      135,
+      112,
+      112
+    ],
+    "pitchValue": [
+      200,
+      273,
+      88,
+      28
+    ],
+    "formantValue": [
+      554,
+      273,
+      88,
+      28
+    ],
+    "link": [
+      395,
+      144,
+      58,
+      58
+    ],
+    "transpose": [
+      464,
+      314,
+      112,
+      28
+    ],
+    "quantize": [
+      584,
+      314,
+      112,
+      28
+    ],
+    "robot": [
+      704,
+      314,
+      112,
+      28
+    ],
+    "pluginLogo": [
+      40,
+      342,
+      245,
+      32
+    ],
+    "brandLogo": [
+      1050,
+      340,
+      115,
+      34
+    ],
+    "skinName": [
+      550,
+      365,
+      100,
+      16
+    ],
+    "modeLabel": [
+      385,
+      314,
+      70,
+      28
+    ]
+  }
+}

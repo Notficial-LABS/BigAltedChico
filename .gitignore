@@ -1,0 +1,72 @@
+# All private/local work, builds, test output, archives and release artifacts.
+/Working/
+
+# Fallbacks for tools invoked without this project's defaults.
+/build/
+/build-*/
+/cmake-build-*/
+/dist/
+/Backups/
+/Tests/
+/preview*.png
+/Assets/SkinTemplate.zip
+/CMakeUserPresets.json
+/CMakeCache.txt
+/CMakeFiles/
+/compile_commands.json
+
+# Editor and OS state.
+/.vscode/
+/.idea/
+*.code-workspace
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Python environments and bytecode.
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Personal presets, DAW projects, audio renders and compiled products.
+*.bigchico
+*.als
+*.wav
+*.aif
+*.aiff
+*.o
+*.obj
+*.a
+*.lib
+*.dylib
+*.dll
+*.so
+*.exe
+*.pdb
+*.dSYM/
+*.app/
+*.vst3/
+*.component/
+*.pkg
+*.dmg
+*.msi
+*.deb
+*.rpm
+*.AppImage
+*.zip
+*.tar.gz
+
+# Local credentials and signing materials; never required by the source tree.
+.env
+.env.*
+*.p12
+*.pfx
+*.key
+*.pem
+*.mobileprovision

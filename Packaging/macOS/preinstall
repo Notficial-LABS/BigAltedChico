@@ -1,0 +1,19 @@
+#!/bin/sh
+# SPDX-License-Identifier: MIT
+# Do not replace a bundle currently in use. Never quit a user's DAW automatically.
+set -eu
+if /usr/bin/pgrep -x BigAltedChico >/dev/null 2>&1; then
+    echo 'Close BigAltedChico Standalone before installing.' >&2
+    exit 1
+fi
+# A system installation runs as root, whose HOME is not the audio user's home.
+# Inspect both scopes to catch an already-loaded copy from an earlier install.
+for base in "$HOME/Library/Audio/Plug-Ins" /Library/Audio/Plug-Ins /Users/*/Library/Audio/Plug-Ins; do
+    for binary in "$base/VST3/BigAltedChico.vst3/Contents/MacOS/BigAltedChico" "$base/Components/BigAltedChico.component/Contents/MacOS/BigAltedChico"; do
+        if [ -f "$binary" ] && /usr/sbin/lsof -t "$binary" 2>/dev/null | /usr/bin/grep -q .; then
+            echo 'Close the DAW using BigAltedChico before installing.' >&2
+            exit 1
+        fi
+    done
+done
+exit 0

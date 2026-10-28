@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "my-blue-skin",
+  "name": "My Blue Skin",
+  "extends": "salem",
+  "colours": {
+    "accent": "#60C8F2",
+    "text": "#60C8F2"
+  }
+}
